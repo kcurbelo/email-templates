@@ -15,7 +15,9 @@ p {
 	font-size:16px
 }
 ul {
-	padding: 0
+	padding: 0;
+	margin: 0;
+	padding: 10px 0;
 }
 .email-background {
 
@@ -24,7 +26,7 @@ ul {
 
 }
 .offer-cont {
-    background-image: url("vb.jpg");
+    background-image: url("http://kevincurbelo.com/vb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px 40px;
@@ -48,30 +50,51 @@ ul {
 	display: inline-block;
 	border-radius: 7px;
 	margin-top: 10px;
+	font-weight: 600;
 }
+.city-main-cont {
+	background-color: #f2f2f2;
+}
+.city-list-item {
+	display: inline-block;
+	width: 20%;
+	font-weight: 600;
+	color: #aaa;
+}
+.city-img {
+	opacity: .7;
+}
+.secret-deal-cont {
+	text-align: center;
+	padding: 20px;
+	background-color: #fff;
+	color: #333;
+	border-top: 10px solid #DF0000;
+	border-bottom: 10px solid #DF0000;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.secret-btn {
+	border: 0;
+	background:none;
+	color: #333;
+	text-decoration: none;
+	padding: 15px 30px;
+	display: inline-block;
+	border-radius: 7px;
+	background-color: #fff;
+	font-weight: 600;
+	border: 2px solid #333;
+}
+.booking-cont {
+	margin-top: 10px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	color: #333;
+}
+.booking-btn {
+	color: #333;
+	margin-top: 20px;
+	display:inline-block;
+}
