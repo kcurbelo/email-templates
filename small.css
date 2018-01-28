@@ -1,0 +1,36 @@
+h1, h2, h3, li, p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #FFC566;
+    margin: 1em 0;
+    padding: 0; 
+}
+h1 {
+	font-size: 32px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 20px;
+}
+p {
+	font-size:16px;
+}
+.email-background {
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+.email-container {
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #fff;
+	max-width: 500px;
+	margin: 0px auto;
+}
